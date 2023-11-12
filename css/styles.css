@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(227, 236, 234);
+  font-family: Arial;
+  margin: 0px; /** This is a comment! */
+}
+
+a {
+  color:rgb(79, 148, 222);
+}
+a:hover {
+  color:rgb(108, 222, 79);
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+img {
+  width: 200px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+/* .header {
+  background-color: #998500;
+  position: fixed;
+  top: 0px;
+  height: 60px;
+  padding: 0px 5px;
+  width:100%;
+  font-size: 50px;
+  z-index: 10;
+} */
+
+#heading {                    /*ID selector can only be one*/
+  color: aqua;
+}
+
+#circle {
+  border-radius: 100%;
+}
+
+.content {                    /*CLASS selector can be many*/
+  height: 200px;
+  position: absolute;
+  top: 60px;
+  padding: 10px;
+  z-index: 0;
+}
+
+/**
+.content p {
+  width: 25%;
+}
+*/
+
+.footer {
+  background-color: #0F2150;
+  position: fixed;
+  bottom: 0px;
+  height: 10px;
+  width: 100%;
+  z-index: 10;
+}
